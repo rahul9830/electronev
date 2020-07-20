@@ -1,0 +1,18 @@
+{
+  "name": "electronev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "ip": "^1.1.5",
+    "node-pty": "^0.9.0",
+    "python-shell": "^2.0.1",
+    "xterm": "^4.8.1"
+  }
+}

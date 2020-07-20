@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleetco.in</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/bed88d3548.js" crossorigin="anonymous"></script> -->
+
+
+</head>
+<style>
+    body{
+        background-color: #F2F2F2;
+    }
+</style>
+<body>
+
+    <!-- TOP NAVIGATION BAR -->
+    <div class="topnav">
+        <div class="topnav-left"><a href="#">Fleetco.in</a></div>
+        
+        <a class="active" href="#">File</a>
+        <a href="#">Programs</a>
+        <a href="#">Collabrations</a>
+        <a href="#">Connections</a>
+        <a href="#">Options</a>
+        <a href="#">Settings</a>
+
+        <div class="dropdown">
+            <a class="dropdown_button">Options_drop</a>
+            <div class="dropdown_content">
+                <a href="">Option 1</a>
+                <a href="">Option 2</a>
+                <a href="">Option 3</a>        
+            </div>
+        </div>    
+
+        
+    </div>
+
+
+    <!-- SIDE BAR -->
+
+    <div class="sidenav">
+        <a href="index.html" class="active"><i class="fa fa-home"></i>Home</a>
+        <a href="charts.html"><i class="fa fa-line-chart"></i>Charts</a>
+        <a href="terminal.html"><i class="fa fa-terminal"></i>Terminal CLI</a>
+        
+        <a href="parameter1.html">Parameter 1</a>
+        <a class="dropdown-btn" class="active">Parameter 2
+          <i class="fa fa-arrow-circle-down fa-xs"></i>
+        </a>
+        <div class="dropdown-container">
+            <a href="#">sub_parameter 1 </a>
+            <a href="#">sub_parameter 2</a>
+            <a href="#">sub_parameter 3</a>
+        </div>
+        <a href="#">Parameter 3</a>
+        <div class="sidebottom">
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <p>This is main page</p>
+
+
+
+        
+    </div>
+
+    <script src="./renderer.js"></script>
+
+
+
+
+
+    <!-- This is for the drop down in the sidebar -->
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+    
+          for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          } else {
+          dropdownContent.style.display = "block";
+            }
+            });
+            }             
+    
+      </script>
+    
+</body>
+</html>
