@@ -6,14 +6,6 @@ function sendToPython() {
     result.textContent = data.toString('utf8');
   });
 
-  python.stderr.on('data', (data) => {
-    console.error(`stderr: ${data}`);
-  });
-
-  python.on('close', (code) => {
-    console.log(`child process exited with code ${code}`);
-  });
-
 }
 
 btn1.addEventListener('click', () => {
