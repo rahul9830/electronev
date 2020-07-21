@@ -1,5 +1,5 @@
 .topnav {
-    background-color: rgb(255, 249, 249);
+    background-color: #000E48;
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -12,7 +12,7 @@
 .topnav a {
     float: left;  
   
-    color: #000000;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
@@ -26,13 +26,13 @@
 }
 
 .topnav a:hover ,.dropdown:hover .dropdown_button{
-    color: gray;
-    border-bottom: 3px solid rgb(68, 68, 255);   
+    /* color: gray; */
+    border-bottom: 3px solid #FFFFFF;   
 }
 
 .topnav a.active {
-    border-bottom: 3px solid rgb(68, 68, 255);
-    color: black;
+    border-bottom: 3px solid #FFFFFF;
+    color:#FFFFFF;
 }
 
 .topnav-left{
@@ -46,7 +46,7 @@
     font-size: 14px; 
     border: none;
     outline: none;
-    color: black;
+    color: #FFFFFF;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -59,7 +59,7 @@
   position: fixed;
   top: 40px;
   bottom: block;
-  background-color: rgb(255, 249, 249);
+  background-color: #000E48;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -68,7 +68,7 @@
 /* Links inside the dropdown */
 .dropdown_content a {
   float: none;
-  color: black;
+  color: #FFFFFF;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -78,7 +78,7 @@
 
 .dropdown_content a:hover {
   /* background-color: rgb(60, 255, 0); */
-  border-bottom: 3px solid rgb(68, 68, 255);
+  border-bottom: 3px solid #FFFFFF;
 }
 
 /* Show the dropdown menu on hover */
@@ -105,7 +105,7 @@
     z-index: 1; /* Stay on top */
     top: 40px; /* Stay at the top */
     left: 0;
-    background-color: rgb(255, 249, 249); /* Black*/
+    background-color: #000E48; 
     overflow-x: auto; /* Disable horizontal scroll */
     padding-top:40px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -118,7 +118,7 @@
     padding:14.11px 5px 11.89px 22px;
     text-decoration: none;
     font-size: 14px;
-    color: black;
+    color: #FFFFFF;
     display: block;
     text-align: left;
     transition: 0.3s;
@@ -126,13 +126,13 @@
 
 .sidenav a:hover , .dropdown-btn:hover{
     /* color: white; */
-    border-left: 3px solid rgb(68, 68, 255);
+    border-left: 3px solid #FFFFFF;
 }
 
 
 .sidenav a.active{
-    border-left: 3px solid rgb(68, 68, 255);
-    color: black;
+    border-left: 3px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
   
@@ -145,6 +145,7 @@
     position: absolute;
     left: 0px;
     top: 25px;
+    
 }
   
   
@@ -163,7 +164,7 @@ color: white;
 
 .dropdown-container {
     display: none;
-    background-color: rgb(255, 249, 249);
+    background-color: #000E48;
     padding-left: 8px;
 }
 
@@ -189,7 +190,7 @@ color: white;
 .fa-caret-down {
     float: right;
     padding-right: 8px;
-    color: dimgrey;
+    color: #FFFFFF;
 }
 
 .fa-home,.fa-line-chart,.fa-terminal{
