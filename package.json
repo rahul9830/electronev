@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^9.1.0",
+    "electron": "^15.5.5",
     "ip": "^1.1.5",
     "node-pty": "^0.9.0",
     "python-shell": "^2.0.1",
